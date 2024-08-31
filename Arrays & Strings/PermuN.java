@@ -11,7 +11,7 @@ public class PermuN {
             return false;
         }
 
-        int[] charCount = new int[128];  // Assuming ASCII characters
+        int[] charCount = new int[128];  
 
         for (int i = 0; i < s.length(); i++) {
             charCount[s.charAt(i)]++;
