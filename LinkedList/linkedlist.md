@@ -217,3 +217,26 @@ Use TreeSet when you need the elements to be sorted, either naturally or via a c
 
 
 By understanding these differences, you can select the most appropriate Set implementation for your specific needs in Java applications.
+
+
+
+
+
+import java.util.*;
+
+Collections.sort(list);
+list.sort(null);
+Collections.sort(Comparator.reverseOrder());
+
+
+//creating new linkedlist by dding elements of two ll alternatively
+
+
+while(i< list1.size() && j < list2.size()){
+    list3.add(list1.get(i))
+    list3.add(list2.get(i));
+    i++
+    j++
+}
+
+
